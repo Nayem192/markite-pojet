@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(images/slider-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:150px 0 ;
+}
+.heaser-aria-pat {
+margin-left: 100px;
+color: aliceblue;
+}
+.heaser-aria-pat h2 {
+    color:aliceblue;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.heaser-aria-pat p {
+    font-size: 30px;
+}
+.heaser-aria-pat a {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: lightpink;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.heaser-aria-pat a:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+    border: 1px solid orange;
+}
+
+/* scetion add one  */
+
+.Latest {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.coll-10 {
+padding: 20px 20px;
+background-color: aliceblue;
+border: 2px solid red;
+}
+
+.link {
+    background-color: #FFFFFF;
+    padding: 10px 8px;
+   border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+  
+}
+.coll-10 img {
+   
+    max-width:80%;
+    max-height: 150px;
+}
+
+.row-10 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  
+    
+}
+.row-10 a {
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.row-10 a span {
+    color: red;
+}
+.coll-10-img  img {
+   
+    max-width:100%;
+    max-height: 150px;
+    margin-bottom: 40px;
+}
+ .coll-10-img  {
+    padding: 20px 20px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    }
+
+    .coll-10-img a {
+        font-size: 18px;
+    }
+    .coll-10-img a span {
+        color:red;
+    }
+
+    /* section tow add kora */
+    .local-ariya-pat-10 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+    .local-ariya-pat-30 {
+        text-align: center;
+        margin: 70px 0;
+        
+    }
+    .local-ariya-pat-30 h3 a {
+        padding: 10px 30px;
+        background-color: orange;
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .local-ariya-pat-30 h3 a:hover{
+        background-color: rgba(0, 0, 0, 0.151);
+    }
+
+
+    .local-ariya-pat-20 img {
+        max-width: 100%;
+        max-height: 1000px;
+    }
+    .local-ariya-pat-20 h2 {
+        font-size: 40px;
+       margin-bottom: 20px;
+    }
+    .local-ariya-pat-20 p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .local-ariya-pat-20 a {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 20px;
+       padding: 10px 30px;
+       background-color: orange;
+       cursor: pointer;
+       text-decoration: none;
+       border-radius: 5px;
+    }
+    .local-ariya-pat-20 a:hover{
+        background-color: rgba(0, 0, 0, 0.151);
+    }
+
+
+    .consectetur {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 80px;
+    }
+
+
+    .consectetur-img-10 {
+        
+        position: relative;
+
+    }
+
+    .consectetur-img-10 img {
+        width: 100%;
+        
+
+
+    }
+    .consectetur-text-10 {
+       position: absolute;
+        top:50px;
+        left: 50px;
+        
+    }
+    .consectetur-text-10 h2 {
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .consectetur-text-10 a {
+        display: inline-block;
+        margin-top: 50px;
+        padding: 10px 30px;
+        background-color: rgba(0, 0, 0, 0.103);
+        
+        border-radius: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: 1px solid orange;
+        color:orange;
+    }
+    .consectetur-text-10 a:hover{
+        background-color: orange; 
+        color: #fff; 
+    }
+
+    
+    .consectetur-img-30 img {
+       max-width: 100%;
+       max-height: 200px;
+       margin-bottom: 25px;
+       margin-top: 20px;
+      
+    }
+    .consectetur-img-20{
+        position: relative;
+    }
+
+    .consectetur-text-20 {
+        position: absolute;
+         top:30px;
+         left: 50px;
+         
+     }
+
+     .consectetur-text-20 h2 {
+        font-size: 40px;
+        color: #fff;
+    }
+    .consectetur-text-20 a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 30px;
+        background-color: rgba(0, 0, 0, 0.103);
+        
+        border-radius: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: 1px solid orange;
+        color:orange;
+    }
+    .consectetur-text-20 a:hover{
+        background-color: orange; 
+        color: #fff; 
+    }
+
+    /* dignissimos add  */
+
+    .dignissimos-text {
+        text-align: center;
+        margin: 80px 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .dignissimos {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        /* align-items: center; */
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .dignissimos-10 img {
+        max-width: 100%;
+    }
+
+    .dignissimos-10 {
+      
+        background-color: beige;
+        padding: 20px;
+    }
+    .dignissimos-10 h2 {
+       margin: 20px;
+        font-size: 25px;
+        font-weight: 500;
+       
+        
+    }
+    .dignissimos-10 p {
+        font-size: 18px;
+    }
+    .dignissimos-10 a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 30px;
+        background-color: rgba(0, 0, 0, 0.103);
+        
+        border-radius: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: 1px solid orange;
+        color:orange;
+    }
+    .dignissimos-10 a:hover{
+        background-color: orange; 
+        color: #fff; 
+    }
+
+    
+
+

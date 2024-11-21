@@ -1,0 +1,244 @@
+@media only screen and (max-width: 688px) {
+    .heaser-aria-pat {
+        margin-left: 17px;
+        color: aliceblue;
+        }
+
+
+        .heaser-aria-pat h2 {
+            
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .heaser-aria-pat p {
+            font-size: 20px;
+        }
+
+
+
+
+        
+
+        .row {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+           
+            margin-left: 10px;
+            margin-right: 10px;
+            
+            
+        }
+
+        .coll-10 img {
+            margin-left: 40px;
+            margin-right: 10px;
+            padding-left: 10px;
+            margin-right: 10px;
+   
+            width:100%;
+            
+        }
+        .coll-10-img img {
+           padding-left: 10px;
+           padding-right: 10px;
+            width:100%;
+        }
+
+        /* about sextion */
+        .local-ariya-pat-10 {
+            display: block;
+            
+            gap: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+    
+        }
+        .local-ariya-pat-20 img {
+            width: 100%;
+            
+        }
+
+        /* pick */
+        
+    .consectetur {
+        display: block;
+        
+       
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+    .consectetur-img-10 img {
+        width: 100%;
+        
+
+
+    }
+    .consectetur-img-30 img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       
+     }
+
+     /* .dignissimos-10  */
+     .dignissimos {
+        display: block;
+      
+        gap: 20px;
+      
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 10px;
+        
+    }
+    .dignissimos-10 img {
+        max-width: 100%;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 689px) and (max-width: 920px) {
+    
+
+
+    .row {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    .coll-10 img {
+   
+        width:100%;
+        
+    }
+    /* about sextion */
+    .local-ariya-pat-10 {
+        display: block;
+        
+        gap: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    .local-ariya-pat-20 img {
+        width: 100%;
+        
+    }
+
+    .consectetur {
+        display: block;
+        
+       
+        gap: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    
+    .consectetur-img-10 img {
+        width: 100%;
+        
+
+
+    }
+    .consectetur-img-30 img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       
+     }
+
+
+
+
+
+     .dignissimos {
+        display: block;
+      
+        gap: 20px;
+      
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        
+    }
+    .dignissimos-10 img {
+        max-width: 100%;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 920px) and (max-width: 1100px) {
+    .row {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    .coll-10 img {
+   
+        width:100%;
+        
+    }
+    /* about sextion */
+    .local-ariya-pat-10 {
+        display: block;
+        
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+    .local-ariya-pat-20 img {
+        width: 100%;
+        
+    }
+    .consectetur {
+        
+        
+       
+        gap: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    
+    .dignissimos {
+        display: block;
+      
+        gap: 20px;
+      
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 10px;
+        
+    }
+    .dignissimos-10 img {
+        max-width: 100%;
+    }
+    
+
+
+}
